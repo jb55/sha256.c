@@ -1,0 +1,23 @@
+{
+    "name" : "tap.c",
+    "version" : "0.0.1",
+    "description" : "Write tap tests in C.",
+    "src": [ "tap.c", "tap.h" ],
+    "repository" : {
+      "type" : "git",
+      "url" : "git://github.com/thlorenz/tap.c.git"
+    },
+    "homepage" : "https://github.com/thlorenz/tap.c",
+    "dependencies" : {
+    },
+    "keywords": ["tap", "test", "check", "tap.c" ] ,
+    "author" : {
+      "name" : "Thorsten Lorenz",
+      "email" : "thlorenz@gmx.de",
+      "url" : "http://thlorenz.com"
+    },
+    "license" : {
+      "type": "GPLv2",
+      "url": "https://github.com/thlorenz/tap.c/blob/master/COPYING"
+    }
+}
