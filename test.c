@@ -19,7 +19,7 @@ unsigned char empty_hashed[] = {
 };
 
 int main (void) {
-  plan(1);
+  plan(2);
 
   unsigned char buf[32] = {0};
 
