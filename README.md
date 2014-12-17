@@ -1,6 +1,8 @@
 
 # sha256.c
 
+  [![Build Status](https://travis-ci.org/jb55/sha256.c.svg)](https://travis-ci.org/jb55/sha256.c)
+
   sha256 in c
 
 ## Installation
