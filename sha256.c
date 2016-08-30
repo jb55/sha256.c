@@ -51,13 +51,13 @@ sha256_init(sha256_t *p)
 
 #define RX_8(i) \
   R(a,b,c,d,e,f,g,h, i); \
-  R(h,a,b,c,d,e,f,g, i+1); \
-  R(g,h,a,b,c,d,e,f, i+2); \
-  R(f,g,h,a,b,c,d,e, i+3); \
-  R(e,f,g,h,a,b,c,d, i+4); \
-  R(d,e,f,g,h,a,b,c, i+5); \
-  R(c,d,e,f,g,h,a,b, i+6); \
-  R(b,c,d,e,f,g,h,a, i+7)
+  R(h,a,b,c,d,e,f,g, (i+1)); \
+  R(g,h,a,b,c,d,e,f, (i+2)); \
+  R(f,g,h,a,b,c,d,e, (i+3)); \
+  R(e,f,g,h,a,b,c,d, (i+4)); \
+  R(d,e,f,g,h,a,b,c, (i+5)); \
+  R(c,d,e,f,g,h,a,b, (i+6)); \
+  R(b,c,d,e,f,g,h,a, (i+7))
 
 #else
 
