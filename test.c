@@ -24,6 +24,7 @@ int main (void) {
   unsigned char buf[32] = {0};
 
   sha256_hash(buf, (unsigned char*)"hello", 5);
+  note("basic stuff");
   ok(memcmp(buf, hello_hashed, 32) == 0, "should hash correctly");
 
   sha256_t hash;
